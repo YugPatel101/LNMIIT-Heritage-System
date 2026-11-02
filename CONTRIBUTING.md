@@ -67,4 +67,4 @@ docs: update setup steps
 
 `nextjs` `react` `threejs` `webgl` `tailwindcss` `javascript` `3d-map` `campus-map` `static-site` `student-project`
 
-**Visibility:** this repository is public. The photograph permissions in [docs/PROJECT_STATUS.md](docs/PROJECT_STATUS.md) still need to be cleared.
+**Visibility:** this repository is private, so reviewers need to be added as collaborators. Keep it private until the photograph permissions in [docs/PROJECT_STATUS.md](docs/PROJECT_STATUS.md) are cleared.

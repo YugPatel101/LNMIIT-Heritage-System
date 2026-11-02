@@ -140,6 +140,8 @@ More detail is in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
 ### Steps
 
+This repository is private, so you need collaborator access to clone it.
+
 ```bash
 git clone https://github.com/pxrth03/LNMIIT-Heritage-system.git
 cd LNMIIT-Heritage-system
