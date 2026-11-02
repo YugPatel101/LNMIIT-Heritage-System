@@ -1,0 +1,37 @@
+// Pins on the campus reference illustration, in pixels of its 1725 x 815 image.
+// Read from the buildings drawn in the picture, using satellite positions as the guide.
+export const referenceImage = {
+  src: '/media/campus-reference.webp',
+  width: 1725,
+  height: 815,
+};
+export const referencePins = {
+  academic: [205, 410],
+  plaza: [228, 510],
+  'boys-west': [405, 195],
+  'boys-upper': [622, 297],
+  'boys-lower': [712, 415],
+  bh4: [1085, 160],
+  'girls-west': [103, 120],
+  'girls-courtyard': [490, 535],
+  'mess-west': [318, 150],
+  'mess-central': [565, 478],
+  canteen: [530, 418],
+  'faculty-b': [778, 545],
+  'faculty-d': [950, 470],
+  'faculty-upper': [1000, 330],
+  'faculty-east': [939, 269],
+  courts: [868, 365],
+  football: [1465, 495],
+  ai: [1060, 580],
+  library: [332, 530],
+  mme: [135, 322],
+  incubation: [115, 215],
+  sac: [805, 290],
+  medical: [758, 262],
+  'guest-house': [660, 610],
+  'directors-house': [552, 638],
+  temple: [753, 322],
+  wtp: [525, 245],
+  oat: [485, 350],
+};

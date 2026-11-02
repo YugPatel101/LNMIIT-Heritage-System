@@ -1,21 +1,28 @@
 {
-  "name": "self_paced",
-  "version": "0.1.0",
+  "name": "lnmiit-heritage",
+  "version": "1.0.0",
+  "description": "Student prototype of an interactive heritage portal and 3D campus explorer for The LNM Institute of Information Technology, Jaipur.",
   "private": true,
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=22.13"
+  },
   "scripts": {
-    "dev": "next dev",
+    "dev": "node scripts/dev.mjs",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "start": "node scripts/serve.mjs",
+    "lint": "eslint",
+    "check": "python3 scripts/check-export.py",
+    "check:campus": "node scripts/check-campus.mjs && node scripts/check-campus-scene.mjs"
   },
   "dependencies": {
     "next": "16.3.1",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "three": "^0.186.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
-    "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.3.1",
     "tailwindcss": "^4"
